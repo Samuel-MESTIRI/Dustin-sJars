@@ -1,0 +1,23 @@
+1- Creer un projet npm avec jest en js
+2- reflexion autour du systeme de compatibilité mentale de Dustin
+3- TDD: Mettre en place les tests selon les différents cas d'utilisation  de l'application
+4- programmer une API via node.js se basant sur le travail preparatiore en TDD
+5- partie front
+
+
+
+
+
+-----------------------------------
+
+on repartie notre solde dans differente catégorie (jar) que l'on peut creer (loyer, alimentaion ...)
+Chaque catégorie a un maximum dont elle a besoin par mois
+Dès que l'on recoit de largent il remplit les categories prioritaires en premier 
+Si toutes les categories sont rempli au max il y a une categorie reste avec le reste
+Il est possible de transvaser de l'argent d'une categorie a l'autre
+Quand on paye qqle chose on peut débiter la bonne catégorie grace à un tag sur le paiement
+On peut supprimer une categorie et l'argent se repartie comme expliquer plus haut 
+On peut ajuster le maximum dont a besoin Chaque categorie:
+    Si on baisse le max et que la categorie est pleine le restant d'argent se repartie comme expliquer plus haut 
+    Si on augmente le max et que la categorie est pleine le restant d'argent la categorie reste puis les categorie les moins prioritaire remplisse ce qui manque
+
